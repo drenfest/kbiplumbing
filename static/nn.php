@@ -21,7 +21,7 @@ $resource = "/nearbyserviceareareviewcombo";
 //$resource = "/testimonials";
 //$resource = "/photogallery";
 //required API param
-$token = "1d3f6915-8b63-4d35-9f00-b2b78f3ff1cf";
+$token = "41400116-9afa-4772-a94a-5a736521f837";
 //optional API params
 $agent = urlencode($_SERVER['HTTP_USER_AGENT']);
 $state = ""; // The abbreviated state. For example, Arizona should be "AZ"
