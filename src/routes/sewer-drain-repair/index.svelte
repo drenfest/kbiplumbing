@@ -16,7 +16,7 @@
 	<li>Main Sewer Lines Cleaned - <a rel="prefetch"  href="/hydro-jetting" title="">See Hydro Jetting</a></li>
 	<li>New lines - Repair and Replace Old & New Sewer Lines</li>
 	<li>City sewer connections- Hook Up New City Sewer</li>
-	<li>Tree root removal- <a rel="prefetch" href="/power-rodding" title="">See Power Rodding & Hydro Jetting</a></li>
+	<li>Tree root removal- <a rel="prefetch" href="/power-rodding" title="">See Drain | Sewer Rodding & Hydro Jetting</a></li>
 </ul>
 
 <h3>Backwater Valves & Backflow Prevention</h3>

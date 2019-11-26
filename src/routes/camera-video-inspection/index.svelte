@@ -18,6 +18,3 @@
 
 <h3>Storm Sewer Inspection</h3>
 <p>With a Camera inspection we can locate the clog or obstruction that has your sewer line backed up. Locate and identify an future problems that may arise.</p>
-
-<h3>Hydro Jetting</h3>
-<p>A great way to avoid inconvenient repairs is through a preventative maintenance program. Aries Mechanical Inc. will gladly tailor a maintenance program to meet your specifications. Our certified technicians will analyze your air conditioning system, and pinpoint worn or broken parts. Scheduling a regular visit will maximize your systems performance and increase efficiency, eliminating most repair needs and lengthen the lifespan of your unit lowering utility bills.</p>

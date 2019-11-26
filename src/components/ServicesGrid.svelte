@@ -59,7 +59,7 @@
         <div class="grid">
             <a class="service camera-inspection" title="Read About Our Camera Locating Services" href="/camera-video-inspection">Camera Location Services</a>
             <a class="service sump-pump" title="Read About Our Sump & Ejector Pump Services" href="/sump-ejector-pumps">Sump | Ejector Pumps</a>
-            <a class="service power-rodding" title="Read About Our Power Rodding Services" href="/power-rodding">Power Rodding</a>
+            <a class="service power-rodding" title="Read About Our Drain | Sewer Rodding Services" href="/power-rodding">Drain | Sewer Rodding</a>
             <a class="service hydro-jetting" title="Read About Our Hydro Jetting Services" href="/hydro-jetting">Hydro Jetting</a>
             <a class="service storm-sewer" title="Read About Our Storm Sewer Drain Services" href="/sewer-drain-repair">Storm Sewer Drain</a>
             <a class="service seepage-tile" title="Read About Our Seepage Tile Services" href="/seepage-tile">Seepage Tile</a>

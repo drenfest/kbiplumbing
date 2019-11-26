@@ -7,7 +7,7 @@
 
 </style>
 <Hero
-        heroImage="/assets/images/heros/power-rodding.jpg"
+        heroImage="/assets/images/heros/hydro-jetting.jpg"
         heroTitle="Hydro Jetting"
         heroBigText="Starting at $385"
         heroText="Your Top Rated Sewer & Drain Repair Company">

@@ -8,7 +8,7 @@
 <style>
 	.about-section{
 		padding:4rem 2rem 24rem;
-		background-image: url(/assets/images/homeaboutbk-m.jpg);
+		background-image: url(/assets/images/homeaboutbk.jpg);
 		background-size: cover;
 		background-position: bottom center;
 	}
@@ -63,7 +63,7 @@ background: linear-gradient(90deg, rgba(61,84,103,1) 9%, rgba(96,115,130,1) 90%)
 	@media screen and (min-width:768px){
 
 	.about-section{
-		padding:6rem 2rem 24rem;
+		padding:6rem 2rem 6rem;
 		background-image: url(/assets/images/homeaboutbk.jpg);
 		background-size: cover;
 		background-position: bottom center;
@@ -86,14 +86,14 @@ background: linear-gradient(90deg, rgba(61,84,103,1) 9%, rgba(96,115,130,1) 90%)
 	}
 </style>
 <svelte:head>
-	<title>KBI Plumbing Hvac A/C Furnace Installation & Repair Company</title>
-	<meta name="description" content="Customers rely on KBI Plumbing HVAC in Newark, IL to get the job done in a high-degree of professionalism and workmanship.">
+	<title>KBI Plumbing, Sewer & Drain Repair Company</title>
+	<meta name="description" content="Customers rely on KBI Plumbing to get the job done in a high-degree of professionalism and workmanship.">
 </svelte:head>
 <Hero
 		heroImage="/assets/images/heros/home-hero.jpg"
 		heroTitle="Sewer & Drain Experts"
 		heroBigText="KBI Plumbing"
-		heroText="Helping Out The Mchenry IL Area For The Last 13+ Years">
+		heroText="Helping Out The Illinois & Wisconsin Area For The Last 13+ Years">
 	<p>Free Estimates <br> Free Camera Inspection With Rodding <br> Senior Citizen Discounts <br> Military Discounts <br> Free Second Opinions</p>
 	<a class="btn btn-light" href="/contact" title="Schedule Hvac Repair Or Hvac Installation Service">Schedule Service Now</a>
 </Hero>
@@ -108,7 +108,7 @@ background: linear-gradient(90deg, rgba(61,84,103,1) 9%, rgba(96,115,130,1) 90%)
 			</div>
 			<div class="col-xs-12 col-sm-4">
 				<h3>Modern Tooling</h3>
-				<p>We use the latest technologies such as camera locating blockages and high pressure power rodding. Saving our customers time and money.</p>
+				<p>We use the latest technologies such as camera locating blockages and high pressure Drain | Sewer Rodding. Saving our customers time and money.</p>
 			</div>
 			<div class="col-xs-12 col-sm-4">
 				<h3>Customer Focused</h3>
@@ -117,8 +117,31 @@ background: linear-gradient(90deg, rgba(61,84,103,1) 9%, rgba(96,115,130,1) 90%)
 		</div>
 
 		<div class="row justify-content-center" style="padding:15px 0 0px;">
-
-			<p class="about-support" >Free Estimates</p>
+            <h3>Servicing Your Plumbing and Sewer Needs For Over 13 Years!</h3>
+			<p>KBI Plumbing Sewer & Drain offers cost aware, full service plumbing and Sewer repairs and services to Chicagoland & Wisconsin homeowners. Plumbing is imperative for homes and businesses, so you need a dependable and accomplished plumber to handle any issues that arise. Our highly experienced plumbers can handle a wide variety of plumbing repairs and services including leak repairs, toilet repair and installation, drain cleaning water heater installation and many additional services. Once we’ve completed our work at your home or office, we make sure to leave everything clean.</p>
+			<p>We can help you with bathrooms, kitchens, powder rooms, laundry areas, basements, utility areas, walls, floors, and ceilings. We can work on your property that houses your main water service and main sewer line. We can do it all.  </p>
+			<ul>
+				<li>Commercial and Residential Plumbing</li>
+				<li>Leaking Pipes</li>
+				<li>Drain Cleaning</li>
+				<li>Low Water Pressure Problems</li>
+				<li>Sewer Ejection Pump</li>
+				<li>Backup Sump Pumps</li>
+				<li>Sewer Line Video Inspection</li>
+				<li>Underground Leak Detection</li>
+				<li>Drain Repair</li>
+			</ul>
+			<ul>
+				<li>Water Heater Services</li>
+				<li>Toilet Repairs</li>
+				<li>Water Line Leaks</li>
+				<li>Main Sewer Line Repairs</li>
+				<li>Dripping Faucets</li>
+				<li>Clogged Drains</li>
+				<li>Garbage Disposal Services</li>
+				<li>Sewer Rodding</li>
+				<li>Backflow Prevention</li>
+			</ul>
 		</div>
 
 		<div class="row justify-content-center" style="padding:0px 0 0;">
@@ -138,7 +161,10 @@ background: linear-gradient(90deg, rgba(61,84,103,1) 9%, rgba(96,115,130,1) 90%)
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-12 col-sm-4">
-				<Coupon couponPrice="$89" couponTitle="Sewer Line Power Rodding" couponSubtitle="One time payment" couponText="Not to be combined with any other discount or offer"/>
+				<Coupon couponPrice="$89" couponTitle="Secondary Sewer Line Drain | Sewer Rodding" couponSubtitle="One time payment" couponText="Not to be combined with any other discount or offer"/>
+			</div>
+			<div class="col-xs-12 col-sm-4">
+				<Coupon couponPrice="$129" couponTitle="Main Sewer Line Drain | Sewer Rodding" couponSubtitle="One time payment" couponText="Not to be combined with any other discount or offer"/>
 			</div>
 			<div class="col-xs-12 col-sm-4">
 				<Coupon couponPrice="Starting at $385" couponTitle="Hydro Jetting" couponSubtitle="One time payment" couponText="Not to be combined with any other discount or offer"/>

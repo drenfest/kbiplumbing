@@ -10,8 +10,8 @@
 </style>
 
 <svelte:head>
-	<title>Air Conditioning | A/C</title>
-	<meta name="description" content="Customers rely on Aries Mechanic Inc. HVAC in Newark, IL to get the job done in a high-degree of professionalism and workmanship.">
+	<title>Hydro Jetting</title>
+	<meta name="description" content="Includes Free Camera Inspection. Hydro Jetting Services Starting At $385">
 </svelte:head>
 
 <h2>Hydro Jetting: <span>a method used to clean and clear drain and Sewer lines of blockage utilitzing high water pressure (4000 PSI)</span></h2>

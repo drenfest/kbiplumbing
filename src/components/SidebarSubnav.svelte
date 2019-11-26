@@ -44,7 +44,7 @@
             <a class="sump-ejector-pumps" rel="prefetch" title="Read About Our Sump & Ejector Pump Services" href="/sump-ejector-pumps">Sump | Ejector Pumps</a>
         </li>
         <li>
-            <a class="power-rodding" rel="prefetch" title="Read About Our Power Rodding Services" href="/power-rodding">Power Rodding</a>
+            <a class="power-rodding" rel="prefetch" title="Read About Our Drain | Sewer Rodding Services" href="/power-rodding">Drain | Sewer Rodding</a>
         </li>
         <li>
             <a class="hydro-jetting" rel="prefetch" title="Read About Our Hydro Jetting Services" href="/hydro-jetting">Hydro Jetting</a>
