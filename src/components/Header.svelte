@@ -51,7 +51,9 @@
 		padding:0px 8px;
 		fill: var(--primary-color);
 	}
-
+	.phone-link{
+		font-size:20px;
+	}
 
 </style>
 
@@ -62,8 +64,8 @@
 			<div class="flex-column justify-content-center">
 				<p class="header-support">
 					KBI Plumbing Sewer & Drain
-					Illinois & Wisconsin
-					<span class="header-number"><a href="tel:+1815-353-3298" title="Click Here To Call Now">1-815-353-3298</a></span>
+					<span class="header-number"> <a class="phone-link" href="tel:+1815-353-3298" title="Click Here To Call Now">Illinois: 1-815-353-3298</a></span>
+					<span class="header-number"> <a class="phone-link"  href="tel:+12622179531" title="Click Here To Call Now">Wisconsin: 1-262-217-9531</a></span>
 					Plumbing #: 055--044403
 				</p>
 			</div>
