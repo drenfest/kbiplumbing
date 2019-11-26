@@ -7,6 +7,9 @@ let fileList = [];
 let url = "https://kbiplumbing.net";
 let dt = new Date();
 let lastmod = dt.getFullYear() + "-" + (dt.getMonth() + 1) + "-" + dt.getDate();;
+// GET ALL DIRECTORIES TO FIND THE ONES THAT HAVE AN INDEX FILE
+// THE DIRECTORIES WITH AN INDEX FILE ARE VALID ROUTES THAT NEED TO
+// BE ADDED TO THE SITEMAP
 fs.readdir(fileDirPath, {encoding:"utf8",withFileTypes:true},(err, files)=>{
     if (err){
         return console.log('Error: ' + err);
@@ -15,6 +18,7 @@ fs.readdir(fileDirPath, {encoding:"utf8",withFileTypes:true},(err, files)=>{
         if(file.isDirectory()){
             // console.log("Dir: "+file.name);
                 // console.log(containsIndex(path.join(fileDirPath,file.name)));
+            // IF DIRECTORY CONTAINS AN INDEX FILE THEN THE DIRECTORY IS A URL ADD IT TO THE ARRAY
                 if(containsIndex(path.join(fileDirPath,file.name))){
                     let str = `<url>
 <loc>${url}/${file.name}/</loc>
@@ -28,14 +32,15 @@ fs.readdir(fileDirPath, {encoding:"utf8",withFileTypes:true},(err, files)=>{
                     dirs.push({url:url+"/"+file.name, data:str});
                 }
         }
-        if(file.isFile()){
-            let fExt = file.name.substring(file.name.indexOf("."),file.name.length);
-            let fname= file.name.substring(0,file.name.indexOf("."));
-            fileList.push({name:fname,ext:fExt});
-        }
+        // DO SEARCH TO FIND OUT IF FILE TYPE IS IMAGE
+        // IF IT IS AN IMAGE ADD IT TO SITEMAP
+        // if(file.isFile()){
+        //     let fExt = file.name.substring(file.name.indexOf("."),file.name.length);
+        //     let fname= file.name.substring(0,file.name.indexOf("."));
+        //     fileList.push({name:fname,ext:fExt});
+        // }
 
     });
-    // console.log(dirs);
     let dirData = `
     <url>
     <loc>${url}</loc>
@@ -50,9 +55,13 @@ fs.readdir(fileDirPath, {encoding:"utf8",withFileTypes:true},(err, files)=>{
         dirData = dirData + dirs[i].data;
         console.log(`Preparing ${dirs[i].url} for sitemap`);
     }
+    //WRAP XML
     dirData = beforeDirData + dirData + afterDirData;
+    //WRITE XML TO SITEMAP
     fs.writeFileSync("./public/sitemap.xml",dirData.trim());
 });
+
+//DOES DIRECTORY CONTAIN A FILE NAMED "index.php"?
 function containsIndex(fpath){
     if(fs.existsSync(path.join(fpath,"index.php"))){
         return true;
