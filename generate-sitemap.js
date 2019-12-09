@@ -6,7 +6,7 @@ let dirs = [];
 let fileList = [];
 let url = "https://kbiplumbing.net";
 let dt = new Date();
-let lastmod = dt.getFullYear() + "-" + (dt.getMonth() + 1) + "-" + dt.getDate();;
+let lastmod = dt.getFullYear() + "-" + (dt.getMonth() + 1) + "-" + ("0" + dt.getDate()).slice(-2);
 // GET ALL DIRECTORIES TO FIND THE ONES THAT HAVE AN INDEX FILE
 // THE DIRECTORIES WITH AN INDEX FILE ARE VALID ROUTES THAT NEED TO
 // BE ADDED TO THE SITEMAP
