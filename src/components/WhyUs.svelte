@@ -297,9 +297,6 @@
 </style>
 <section class="locations">
     <div class="location-container">
-        <Divider>
-            <h2>Locations Served</h2>
-        </Divider>
         <div class="row">
             <div class="col-xs-12 col-sm-6">
                 <h2>Illinois</h2>
@@ -322,13 +319,7 @@
                     {/each}
                 </ul>
             </div>
-
         </div>
-
-
-    </div>
-    <div class="location-list">
-
     </div>
 </section>
 <section class="why-us-section">

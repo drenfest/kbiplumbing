@@ -156,7 +156,7 @@
         <hr class="bottom-line"/>
     </button>
     <aside id="side-drawer" class="{drawerToggled ? 'open': '' }">
-        <header><h2 class="main-nav-title">(815) 695-5828</h2><h4 class="main-nav-subtitle">Call For A Free Estimate</h4></header>
+        <header><h2 class="main-nav-title">815-353-3298</h2><h4 class="main-nav-subtitle">Call For A Free Estimate</h4></header>
         <main>
             <nav id="main-nav">
                 <ul class="container">

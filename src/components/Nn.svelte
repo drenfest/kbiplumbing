@@ -28,6 +28,6 @@
         padding:2rem;
     }
 </style>
-<section class="nn-section container">
+<section class="nn-section">
     {@html content}
 </section>

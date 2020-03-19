@@ -3,6 +3,7 @@
     export let heroTitle="Providing Your Family";
     export let heroBigText="Affordable & Quality HVAC Services For Over 30 Years";
     export let heroText=" Your Hvac | A/C | Furnace Installation & Repair Company";
+    export let hideHero = false;
 </script>
 <style>
     img {
@@ -127,6 +128,7 @@
         }
     }
 </style>
+{#if !hideHero}
 <section id="hero-section">
     <div class="grid-container container">
         <div class="hero-left">
@@ -145,3 +147,4 @@
         </div>
     </div>
 </section>
+{/if}

@@ -60,7 +60,7 @@ let formSubmit = function (e) {
 
 <svelte:head>
 	<title>Contact KBI Plumbing</title>
-	<meta name="description" content="Contact KBI Plumbing Supply For Your Plumbing Parts & Tools">
+	<meta name="description" content="Contact KBI Plumbing Sewer & Drain And Get A Free Estimate For Any Of Your Plumbing needs">
 </svelte:head>
 {#if display === false}
 <form action="" method="post" on:submit|preventDefault={formSubmit}>

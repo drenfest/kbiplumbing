@@ -6,6 +6,7 @@
 	import Divider from '../components/Divider.svelte';
 	import WhyUs from '../components/WhyUs.svelte';
 	import Nn from '../components/Nn.svelte';
+	import Popup from '../components/Popup.svelte';
 	let lpages = [
 		"sewer-drain-repair-wayne-il",
 		"sewer-drain-repair-powers-lake-wi",
@@ -241,6 +242,9 @@
 		</main>
 
 {/if}
+<Divider>
+	<h2>Locations Served</h2>
+</Divider>
 	<WhyUs></WhyUs>
 <Divider>
 	<h2>See Our Customer Reviews</h2>
@@ -251,3 +255,6 @@
 	<Nn></Nn>
 {/if}
 <Footer></Footer>
+<Popup linkTitle="Click Here To Read More About Our Covid-19 Policy" linkHref="/covid-19-policy" linkText="Read More" title="Here at KBI Plumbing we take your health and well being seriously.">
+	We've adapted some policies to help prevent the spread of the new Covid-19 Virus.
+</Popup>
