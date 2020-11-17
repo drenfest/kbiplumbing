@@ -106,12 +106,13 @@
 <section class="bg-main-menu d-none d-md-block">
 	<nav class="container">
 		<ul class="nav navbar navbar-dark nav-fill nav-pills justify-content-between">
-			<li class="nav-item"><a rel=prefetch class='{segment === "camera-video-inspection" ? "active" : ""}' href='camera-video-inspection' title="Humidification">Camera Services</a></li>
-			<li class="nav-item"><a rel=prefetch class='{segment === "sump-ejector-pumps" ? "active" : ""}' href='sump-ejector-pumps' title="Humidification">Pumps</a></li>
-			<li class="nav-item"><a rel=prefetch class='{segment === "power-rodding" ? "active" : ""}' href='power-rodding' title="Humidification">Drain | Sewer Rodding</a></li>
-			<li class="nav-item"><a rel=prefetch class='{segment === "hydro-jetting" ? "active" : ""}' href='hydro-jetting' title="Humidification">Hydro Jetting</a></li>
-			<li class="nav-item"><a rel=prefetch class='{segment === "sewer-drain-repair" ? "active" : ""}' href='sewer-drain-repair' title="Humidification">Sewer Drain Repair</a></li>
-			<li class="nav-item"><a rel=prefetch class='{segment === "seepage-tile" ? "active" : ""}' href='seepage-tile' title="Humidification">Seepage Tile</a></li>
+			<li class="nav-item"><a rel=prefetch class='{segment === "camera-video-inspection" ? "active" : ""}' href='camera-video-inspection' title="Camera Video Inspection">Camera Services</a></li>
+			<li class="nav-item"><a rel=prefetch class='{segment === "sump-ejector-pumps" ? "active" : ""}' href='sump-ejector-pumps' title="Sump & Ejector Pump Installation & Services">Pumps</a></li>
+			<li class="nav-item"><a rel=prefetch class='{segment === "power-rodding" ? "active" : ""}' href='power-rodding' title="Power Rodding Services">Drain | Sewer Rodding</a></li>
+			<li class="nav-item"><a rel=prefetch class='{segment === "hydro-jetting" ? "active" : ""}' href='hydro-jetting' title="Hydro Jetting Services">Hydro Jetting</a></li>
+			<li class="nav-item"><a rel=prefetch class='{segment === "sewer-drain-repair" ? "active" : ""}' href='sewer-drain-repair' title="Storm Sewer & Storm Drain Repair">Sewer Drain Repair</a></li>
+			<li class="nav-item"><a rel=prefetch class='{segment === "seepage-tile" ? "active" : ""}' href='seepage-tile' title="Seepage Tile Services">Seepage Tile</a></li>
+			<li class="nav-item"><a rel=prefetch class='{segment === "water-heaters" ? "active" : ""}' href='water-heaters' title="Water Heater Installation & Repair">Water Heaters</a></li>
 			<li class="nav-item"><a rel=prefetch class='{segment === "contact" ? "active" : ""}' href='contact' title="Contact Us">Contact</a></li>
 		</ul>
 	</nav>

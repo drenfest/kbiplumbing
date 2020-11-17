@@ -56,6 +56,9 @@
             <a class="seepage-tile" rel="prefetch" title="Read About Our Seepage Tile Services" href="/seepage-tile">Seepage Tile</a>
         </li>
         <li>
+            <a class="water-heaters" rel="prefetch" title="Read About Our Water Heaters Services" href="/water-heaters">Water Heaters</a>
+        </li>
+        <li>
             <a class="reviews" rel="prefetch" href='reviews' title="Reviews">Reviews</a>
         </li>
         <li>

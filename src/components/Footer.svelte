@@ -1,6 +1,7 @@
 <script>
     let lpageNames = [
         "sewer-drain-repair",
+        "water-heaters-maintenance-replacement-repair",
     ];
     let lpageCities = [
         "glenview-il",
@@ -261,7 +262,7 @@
         for (let i = 0; i < 10; i++) {
             let rng = Math.round(Math.random() * (landingLinks.length - 1));
             let linkRef = landingLinks[rng];
-            let linkCityState = linkRef.replace("sewer-drain-repair-", "");
+            let linkCityState = linkRef.replace("sewer-drain-repair-", "").replace("water-heaters-maintenance-replacement-repair-","");
             let linkCsSplit = linkCityState.split('-');
             let linkS = linkCsSplit[linkCsSplit.length - 1].toUpperCase();
             let linkCity = linkCityState.replace("-" + linkS.toLowerCase(), '').replace("-", " ");
@@ -269,8 +270,8 @@
             if (linkCsSplit.length > 2) {
                 linkC = linkCsSplit[0].substr(0, 1).toUpperCase() + linkCsSplit[0].substr(1, linkCity.length - 1) + " " + linkCsSplit[1].substr(0, 1).toUpperCase() + linkCsSplit[1].substr(1, linkCity.length - 1);
             }
-            let linkTitle = linkRef.replace("sewer-drain-repair-" + linkCityState, "Sewer & Drain Repair " + linkC + " " + linkS);
-            let linkText = linkRef.replace("sewer-drain-repair-" + linkCityState, "Sewer & Drain Repair " + linkC + " " + linkS);
+            let linkTitle = linkRef.replace("sewer-drain-repair-" + linkCityState, "Sewer & Drain Repair " + linkC + " " + linkS).replace("water-heaters-maintenance-replacement-repair-" + linkCityState,"Water Heater Services " + linkC + " " + linkS);
+            let linkText = linkRef.replace("sewer-drain-repair-" + linkCityState, "Sewer & Drain Repair " + linkC + " " + linkS).replace("water-heaters-maintenance-replacement-repair-" + linkCityState,"Water Heater Services " + linkC + " " + linkS);
             linkArr = [...linkArr, {href: linkRef, title: linkTitle, text: linkText}]
         }
         return linkArr;
@@ -326,12 +327,13 @@
                 <h3><a href="tel:+1815-353-3298" title="Click Here To Call Now">1-815-353-3298</a></h3>
             </div>
             <div class="col-sm footer2">
-                <a rel=prefetch class='footernav-item' href='camera-video-inspection' title="Humidification">Camera Services</a>
-                <a rel=prefetch class='footernav-item' href='sump-ejector-pumps' title="Humidification">Pumps</a>
-                <a rel=prefetch class='footernav-item' href='power-rodding' title="Humidification">Drain | Sewer Rodding</a>
-                <a rel=prefetch class='footernav-item' href='hydro-jetting' title="Humidification">Hydro Jetting</a>
-                <a rel=prefetch class='footernav-item' href='sewer-drain-repair' title="Humidification">Storm Sewer Drain</a>
-                <a rel=prefetch class='footernav-item' href='seepage-tile' title="Humidification">Seepage Tile</a>
+                <a rel=prefetch class='footernav-item' href='camera-video-inspection' title="Camera Video Inspection">Camera Services</a>
+                <a rel=prefetch class='footernav-item' href='sump-ejector-pumps' title="Sump & Ejector Pump Installation & Services">Pumps</a>
+                <a rel=prefetch class='footernav-item' href='power-rodding' title="Power Rodding Services">Drain | Sewer Rodding</a>
+                <a rel=prefetch class='footernav-item' href='hydro-jetting' title="Hydro Jetting Services">Hydro Jetting</a>
+                <a rel=prefetch class='footernav-item' href='sewer-drain-repair' title="Storm Sewer & Storm Drain Repair">Storm Sewer Drain</a>
+                <a rel=prefetch class='footernav-item' href='seepage-tile' title="Seepage Tile Services">Seepage Tile</a>
+                <a rel=prefetch class='footernav-item' href='water-heaters' title="Water Heater Installation & Repair">Water Heaters</a>
                 <a rel=prefetch class='footernav-item' href='contact' title="Contact Us">Contact</a>
             </div>
             <div class="col-sm footer3">

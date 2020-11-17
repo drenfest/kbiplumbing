@@ -119,6 +119,7 @@ main.power-rodding .sidebar-subnav > ul > li > a.power-rodding,
 main.hydro-jetting .sidebar-subnav > ul > li > a.hydro-jetting,
 main.sewer-drain-repair .sidebar-subnav > ul > li > a.sewer-drain-repair,
 main.seepage-tile .sidebar-subnav > ul > li > a.seepage-tile,
+main.water-heaters .sidebar-subnav > ul > li > a.water-heaters,
 main.reviews .sidebar-subnav > ul > li > a.reviews,
 main.contact .sidebar-subnav > ul > li > a.contact{
     background-color:var(--primary-color);

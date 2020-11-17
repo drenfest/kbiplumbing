@@ -304,7 +304,8 @@
 
                     {#each locations as location}
                         {#if location.state === "IL"}
-                            <li><a href="sewer-drain-repair-{location.city.replace(' ','-').toLowerCase()}-{location.state.toLowerCase()}" title="Sewer & Drain Repair In {location.city} {location.state}">{location.city}, {location.state}</a></li>
+                            <li><a href="sewer-drain-repair-{location.city.replace(' ','-').toLowerCase()}-{location.state.toLowerCase()}" title="Sewer & Drain Repair In {location.city} {location.state}">Sewer & Drain {location.city}, {location.state}</a></li>
+                            <li><a href="water-heaters-maintenance-replacement-repair-{location.city.replace(' ','-').toLowerCase()}-{location.state.toLowerCase()}" title="Water Heaters | Maintenance,Replacement & Repair In {location.city} {location.state}">Water Heaters {location.city}, {location.state}</a></li>
                         {/if}
                     {/each}
                 </ul>
@@ -314,7 +315,8 @@
                 <ul class="location-list">
                     {#each locations as location}
                         {#if location.state === "WI"}
-                            <li><a href="sewer-drain-repair-{location.city.replace(' ','-').toLowerCase()}-{location.state.toLowerCase()}" title="Sewer & Drain Repair In {location.city} {location.state}">{location.city}, {location.state}</a></li>
+                            <li><a href="sewer-drain-repair-{location.city.replace(' ','-').toLowerCase()}-{location.state.toLowerCase()}" title="Sewer & Drain Repair In {location.city} {location.state}">Sewer & Drain {location.city}, {location.state}</a></li>
+                            <li><a href="water-heaters-maintenance-replacement-repair-{location.city.replace(' ','-').toLowerCase()}-{location.state.toLowerCase()}" title="Water Heaters | Maintenance,Replacement & Repair In {location.city} {location.state}">Water Heaters {location.city}, {location.state}</a></li>
                         {/if}
                     {/each}
                 </ul>

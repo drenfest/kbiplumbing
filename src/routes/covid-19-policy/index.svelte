@@ -14,9 +14,9 @@
 	<meta name="description" content="We've adapted some policies to help prevent the spread of the new Covid-19 Virus.">
 </svelte:head>
 <h2>Dear valued clients –</h2>
-<p>There has been a whirlwind of information going around about the COVID-19 virus, some helpful and some not so much.  With that in mind, KBI Plumbing has no plans in halting our services. We will, however, take extra precautions to help ensure the safety of our people as well as you and your family, especially those in the higher risk categories.</p>
+<p>There has been a whirlwind of information going around about the COVID-19 virus, some helpful and some not so much.  With that in mind, Barretts Soft Water has no plans in halting our services. We will, however, take extra precautions to help ensure the safety of our people as well as you and your family, especially those in the higher risk categories.</p>
 
-<p>Kbi Plumbing Warehouse & Technicians:</p>
+<p>Barretts Soft Water Warehouse & Technicians:</p>
 <ul>
 	<li>Hand sanitizer used before and after each appointment</li>
 	<li>Sanitizing of all high touch items in vehicle throughout the day and after last appointment.</li>
@@ -34,5 +34,5 @@
 	<br>
 	Thank You,
 	<br>
-	Kbi Plumbing
+	Barretts Soft Water
 </p>
